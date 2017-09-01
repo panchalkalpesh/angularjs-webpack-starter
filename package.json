@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "AngularJS Webpack Starter - Bootstrap Project",
   "scripts": {
+    "start": "npm run server",
+    "build": "rimraf dist && webpack --bail --progress --profile",
+    "server": "webpack-dev-server --history-api-fallback --inline --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/panchalkalpesh/angularjs-webpack-starter/issues"
   },
-  "homepage": "https://github.com/panchalkalpesh/angularjs-webpack-starter#readme"
+  "homepage": "https://github.com/panchalkalpesh/angularjs-webpack-starter#readme",
+  "dependencies": {
+    "angular": "^1.6.6"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
 }
