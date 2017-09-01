@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-webpack-starter",
+  "version": "1.0.0",
+  "description": "AngularJS Webpack Starter - Bootstrap Project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchalkalpesh/angularjs-webpack-starter.git"
+  },
+  "keywords": [
+    "angularjs",
+    "webpack"
+  ],
+  "author": "Kalpesh Panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panchalkalpesh/angularjs-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/panchalkalpesh/angularjs-webpack-starter#readme"
+}
